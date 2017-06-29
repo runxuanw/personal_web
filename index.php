@@ -14,7 +14,7 @@
 <link rel="stylesheet" type="text/css" href="animate_it/css/animations.css">
 <link rel="stylesheet" media="screen" href="css/timeline.css">
 <link rel="stylesheet" type="text/css" href="css/responsive.css">
-
+<link rel="shortcut icon" href="image/mylogo1_hallow_bold.png">
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -89,9 +89,7 @@
 <h2>Skill Sets</h2>			
 			
 
-			
-
-<div class="skills-wrapper col-xs-8 animatedParent animateOnce" data-sequence="500">
+<div class="skills-wrapper col-xs-11 col-ms-8 col-md-8 animatedParent animateOnce" data-sequence="500">
 <div class="row animated fadeInUp slow" data-id="1">
 <div class="col-xs-2 icon-wrapper">
 <img class="skill_icon img-responsive" src="image/java.png"></img>
@@ -279,13 +277,15 @@
 					<div class="timeline-category-icon">
 					</div> <!-- /.timeline-category-icon end -->
 				</div> <!-- /.timeline-category end -->
-					<div class="timeline-post timeline-post-left">											
-						<div class="timeline-post-content-holder">
-							<div class="timeline-img">
+					<div class="timeline-post timeline-post-left">
+					
+						<div class="timeline-post-content-holder animatedParent animateOnce">
+							<div class="timeline-img animated fadeIn">
 							<div class="sprite education"></div>
 							</div>
+							<div class="animated fadeInLeft">
 							<div class="timeline-post-title">
-								<h4>SENIOR DEVELOPER 1</h4>
+								<h4>Web developer, Student Worker</h4>
 							</div>
 							<div class="timeline-post-subtitle">
 								<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
@@ -293,13 +293,15 @@
 							<div class="timeline-post-content">
 								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
 							</div>
-						</div> <!-- /.timeline-post-content-holder end -->							
+							</div>
+						</div> <!-- /.timeline-post-content-holder end -->			
 					</div> <!-- /.timeline-post end -->
 					<div class="timeline-post timeline-post-right">											
-						<div class="timeline-post-content-holder">
-							<div class="timeline-img">
+						<div class="timeline-post-content-holder animatedParent animateOnce">
+							<div class="timeline-img animated fadeIn">
 							<div class="sprite education"></div>
 							</div>
+							<div class="animated fadeInRight">
 							<div class="timeline-post-title">
 								<h4>SENIOR DEVELOPER 2</h4>
 							</div>
@@ -309,13 +311,15 @@
 							<div class="timeline-post-content">
 								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
 							</div>
+							</div>
 						</div> <!-- /.timeline-post-content-holder end -->							
 					</div> <!-- /.timeline-post end -->									
 					<div class="timeline-post timeline-post-left">											
-						<div class="timeline-post-content-holder">
-							<div class="timeline-img">
+						<div class="timeline-post-content-holder animatedParent animateOnce">
+							<div class="timeline-img animated fadeIn">
 							<div class="sprite education"></div>
 							</div>
+							<div class="animated fadeInLeft">
 							<div class="timeline-post-title">
 								<h4>SENIOR DEVELOPER 3</h4>
 							</div>
@@ -325,13 +329,15 @@
 							<div class="timeline-post-content">
 								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
 							</div>
-						</div> <!-- /.timeline-post-content-holder end -->							
+							</div>
+						</div> <!-- /.timeline-post-content-holder end -->
 					</div> <!-- /.timeline-post end -->
 					<div class="timeline-post timeline-post-right">											
-						<div class="timeline-post-content-holder">
-							<div class="timeline-img">
+						<div class="timeline-post-content-holder animatedParent animateOnce">
+							<div class="timeline-img animated fadeIn">
 							<div class="sprite education"></div>
 							</div>
+							<div class="animated fadeInRight">
 							<div class="timeline-post-title">
 								<h4>SENIOR DEVELOPER 4</h4>
 							</div>
@@ -340,6 +346,7 @@
 							</div>
 							<div class="timeline-post-content">
 								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+							</div>
 							</div>
 						</div> <!-- /.timeline-post-content-holder end -->							
 					</div> <!-- /.timeline-post end -->

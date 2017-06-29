@@ -185,8 +185,13 @@ body {
 	margin-left: 15px;
 	margin-top: 30px;
 	transition: 1s;
-	padding: 10%;
   }
+  
+  @media only screen and (min-width: 780px) {
+    .skill_icon {
+        padding: 10%;
+    }
+}
   
   .skill_icon:hover {
     transform:scale(1.2, 1.2);

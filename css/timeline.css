@@ -60,11 +60,12 @@
 .timeline-post-left{
     text-align: right;
     width: 50%;
+	margin-top: 10%;
 }
 .timeline-post-right{
     text-align: left;
     width: 50%;
-    margin-top: 60px;
+    margin-top: 30%;
 }
 .timeline-post{
     padding: 10px 38px;
@@ -75,12 +76,12 @@
     margin-top: 65px;
 }
 .timeline-post-content-holder{
-    padding: 15px;
+    padding: 15px;	
+	transition: 0.5s
 }
 .timeline-post:hover .timeline-post-content-holder{
     background-color: #fff;
     border-radius: 5px;
-
 }
 
 .education {
@@ -122,7 +123,7 @@
 	background-size:100%
 }
 
-.timeline-post-right:hover > .timeline-post-content-holder:before{
+.timeline-post-right > .timeline-post-content-holder:before {
     right: 100%;
 	margin-right: -38px;
     top: 13%;
@@ -132,12 +133,12 @@
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-color: rgba(255, 255, 255, 0);
-    border-right-color: #fff;
     border-width: 13px;
     margin-top: -13px;
+	transition: 0.5s;
 }
-.timeline-post-left:hover > .timeline-post-content-holder:before{
+
+.timeline-post-left > .timeline-post-content-holder:before {
     left: 100%;
 	margin-left: -38px;
     top: 13%;
@@ -147,11 +148,21 @@
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-color: rgba(255, 255, 255, 0);
-    border-left-color: #fff;
     border-width: 13px;
     margin-top: -13px;
+	transition: 0.5s;
+	border-color: rgba(255, 255, 255, 0);
 }
+
+.timeline-post-right:hover > .timeline-post-content-holder:before {
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #fff;
+}
+.timeline-post-left:hover > .timeline-post-content-holder:before{
+    border-color: rgba(255, 255, 255, 0);
+    border-left-color: #fff;
+}
+
 .timeline-post .timeline-post-title h4{
     color: #2c3e50;
     font-family: "Raleway";
