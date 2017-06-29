@@ -68,67 +68,9 @@
         margin-top: 50px;
     }
 
-    #filters{
-        margin-right: 60px;
-    }
     #filters li{
         display: block;
     }
 
 }
-@media (max-width: 600px){
-    #header{
-        left: 90px;
-    }
-    .avatar-section img{
-        height: 400px;
-        width: 400px;
-    }    
-    .info > h2{
-        font-size: 60px;
-    }
-    .info > h3{
-        font-size: 20px;
-    }
-    #open-nav.nav-half{
-        float: left;
-        margin-top:0px;
 
-    }
-    #open-nav.nav-full{
-        margin-top: 0px;
-    }
-    #header{
-        left: 0px;
-    }
-    .colors-switcher{
-        display: none;
-    }
-}
-
-@media (max-width: 480px){
-
-
-    .navone li{
-        padding: 12px 0;
-    }   
-    .clients_logo li{
-        margin-left: 130px;
-    }
-    .section-title h2{
-        font-size: 40px;
-    }
-    .work_process:before{
-        display: none;
-    }
-    #options{
-         margin: 20px auto 40px 0px;
-    }
-    .price-padding{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .clients_logo li{
-        margin-left: 0px;
-    }    
-}

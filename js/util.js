@@ -85,12 +85,12 @@ function changeCSS() {
 		$(".navbar-default .navbar-nav > li > a").animate({color: "white"}, 700);
 		$(".navbar-default").css("opacity" , "1"); 
       }
-	  else if(scroll >= $("#project").offset().top-100 && scroll < $("#resume").offset().top-100) {
+	  else if(scroll >= $("#project").offset().top-100 && scroll < $("#experience").offset().top-100) {
 		$(".navbar-default").stop(true).animate({backgroundColor: "green"}, 700);
 		$(".navbar-default .navbar-nav > li > a").animate({color: "white"}, 700);
 		$(".navbar-default").css("opacity" , "1"); 
 	  }
-	  else if(scroll >= $("#resume").offset().top-100 && scroll < $("#contact").offset().top-100) {
+	  else if(scroll >= $("#experience").offset().top-100 && scroll < $("#contact").offset().top-100) {
 		$(".navbar-default").stop(true).animate({backgroundColor: "red"}, 700);
 		$(".navbar-default .navbar-nav > li > a").animate({color: "white"}, 700);
 		$(".navbar-default").css("opacity" , "1"); 

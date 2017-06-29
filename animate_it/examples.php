@@ -16,6 +16,10 @@
 				<h2 class='animated growIn slowest'>Animations</h2>
 			</div>
 
+			<div class='animatedParent'>	
+				<h3 class='animated bounceInUp padded'>bounceIn</h3>
+			</div>
+			
 			<!-- bounceIn -->
 			<div class='animatedParent row article'>
 			
