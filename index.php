@@ -276,14 +276,14 @@
 			<!-- Experience Timeline -->
 
 				<div class="timeline-category exp-category">
-					<a class="large bt-timeline">Experiences</a>
 					<div class="timeline-category-icon">
-						<div class="iconspace"><i class="fa-folder-open"></i></div>
 					</div> <!-- /.timeline-category-icon end -->
 				</div> <!-- /.timeline-category end -->
 					<div class="timeline-post timeline-post-left">											
 						<div class="timeline-post-content-holder">
-							<div class="timeline-post-icon"></div>
+							<div class="timeline-img">
+							<div class="sprite education"></div>
+							</div>
 							<div class="timeline-post-title">
 								<h4>SENIOR DEVELOPER 1</h4>
 							</div>
@@ -297,7 +297,9 @@
 					</div> <!-- /.timeline-post end -->
 					<div class="timeline-post timeline-post-right">											
 						<div class="timeline-post-content-holder">
-							<div class="timeline-post-icon"></div>
+							<div class="timeline-img">
+							<div class="sprite education"></div>
+							</div>
 							<div class="timeline-post-title">
 								<h4>SENIOR DEVELOPER 2</h4>
 							</div>
@@ -311,7 +313,9 @@
 					</div> <!-- /.timeline-post end -->									
 					<div class="timeline-post timeline-post-left">											
 						<div class="timeline-post-content-holder">
-							<div class="timeline-post-icon"></div>
+							<div class="timeline-img">
+							<div class="sprite education"></div>
+							</div>
 							<div class="timeline-post-title">
 								<h4>SENIOR DEVELOPER 3</h4>
 							</div>
@@ -325,7 +329,9 @@
 					</div> <!-- /.timeline-post end -->
 					<div class="timeline-post timeline-post-right">											
 						<div class="timeline-post-content-holder">
-							<div class="timeline-post-icon"></div>
+							<div class="timeline-img">
+							<div class="sprite education"></div>
+							</div>
 							<div class="timeline-post-title">
 								<h4>SENIOR DEVELOPER 4</h4>
 							</div>
@@ -342,57 +348,9 @@
 
 			<!-- Education Timeline -->
 				<div class="timeline-category edu-cagegory">
-					<a class="large bt-timeline">Education</a>
-					<div class="timeline-category-icon">
-						<div class="iconspace"><i class="fa-book"></i></div>
-					</div> <!-- /.timeline-category-icon end -->
+					<a class="large bt-timeline">Download Resume</a>
 				</div> <!-- /.timeline-category end -->
-					<div class="timeline-post timeline-post-left">											
-						<div class="timeline-post-content-holder">
-							<div class="timeline-post-icon"></div>
-							<div class="timeline-post-title">
-								<h4>SENIOR DEVELOPER</h4>
-							</div>
-							<div class="timeline-post-subtitle">
-								<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
-							</div>
-							<div class="timeline-post-content">
-								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
-							</div>
-						</div> <!-- /.timeline-post-content-holder end -->							
-					</div> <!-- /.timeline-post end -->	
-					<div class="timeline-post timeline-post-right">											
-						<div class="timeline-post-content-holder">
-							<div class="timeline-post-icon"></div>
-							<div class="timeline-post-title">
-								<h4>SENIOR DEVELOPER</h4>
-							</div>
-							<div class="timeline-post-subtitle">
-								<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
-							</div>
-							<div class="timeline-post-content">
-								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
-							</div>
-						</div> <!-- /.timeline-post-content-holder end -->							
-					</div> <!-- /.timeline-post end -->
-					<div class="timeline-post timeline-post-left">											
-						<div class="timeline-post-content-holder">
-							<div class="timeline-post-icon"></div>
-							<div class="timeline-post-title">
-								<h4>SENIOR DEVELOPER</h4>
-							</div>
-							<div class="timeline-post-subtitle">
-								<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
-							</div>
-							<div class="timeline-post-content">
-								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
-							</div>
-						</div> <!-- /.timeline-post-content-holder end -->							
-					</div> <!-- /.timeline-post end -->
 
-			<!-- Education Timeline -->
-
-				<div class="timeline-end-icon"><span> <i class="fa-bookmark"></i></span></div>
 			</div>	<!-- /.timeline end -->
 		</div> <!-- /.col-md-12 end -->
 	</div>	<!-- /.row end -->

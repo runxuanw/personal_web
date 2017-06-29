@@ -67,7 +67,7 @@
     margin-top: 60px;
 }
 .timeline-post{
-    padding: 10px 25px;
+    padding: 10px 38px;
     float: left;
     position: relative;
 }
@@ -80,55 +80,51 @@
 .timeline-post:hover .timeline-post-content-holder{
     background-color: #fff;
     border-radius: 5px;
-    position: relative;
+
 }
-.timeline-post-left > .timeline-post-content-holder > .timeline-post-icon{
-    position: absolute;
-    right: 0;
-    background-color: #ccd0db;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin-right: -7px;
-    z-index: 6;
-    margin-top: 10px;
+
+.education {
+  background-image: url("../image/android.png");
 }
-.timeline-post-right > .timeline-post-content-holder > .timeline-post-icon{
-    position: absolute;
-    left: 0;
-    background-color: #ccd0db;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin-left: -7px;
-    z-index: 6;
-    margin-top: 10px;
+
+.timeline-img {
+	position:absolute;
+	width:50px;
+	height:50px;
+	top: 12px;
+	border-radius:50%;
+	background:#212121;
+	transform:translateZ(0);
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	transition:all .3s ease;
+	z-index: 99
 }
-.timeline-post-left:hover > .timeline-post-content-holder > .timeline-post-icon{
-    position: absolute;
-    right: 0;
-    background-color: #e74b3b;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin-right: -32px;
-    z-index: 6;
-    margin-top: 10px;
+
+.timeline-post-left .timeline-img{
+  right: -25px
 }
-.timeline-post-right:hover > .timeline-post-content-holder > .timeline-post-icon{
-    position: absolute;
-    left: 0;
-    background-color: #e74b3b;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin-left: -32px;
-    z-index: 6;
-    margin-top: 10px;
+
+.timeline-post-right .timeline-img{
+  left: -25px
+}
+
+.timeline-img .sprite {
+	display:block;
+	width:24px;
+	height:24px;
+	position:relative;
+	left:50%;
+	top:50%;
+	margin-left:-12px;
+	margin-top:-12px;
+	background-repeat:no-repeat;
+	background-size:100%
 }
 
 .timeline-post-right:hover > .timeline-post-content-holder:before{
     right: 100%;
+	margin-right: -38px;
     top: 13%;
     border: solid transparent;
     content: " ";
@@ -143,6 +139,7 @@
 }
 .timeline-post-left:hover > .timeline-post-content-holder:before{
     left: 100%;
+	margin-left: -38px;
     top: 13%;
     border: solid transparent;
     content: " ";
