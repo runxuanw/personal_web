@@ -212,22 +212,6 @@
 
 <div class="col-xs-4 project_container animated fadeInUp slow" data-id="1">
 <div class="hovereffect">
-	<a class="cm-overlay" href="http://foodiedeliver.com/">
-		<img src="image/connect4.png" class="img-responsive shadow">
-		<div class="overlay">
-			<h4>Food I Eat</h4>
-		</div>
-	</a>
-</div>
-	<img src="image/wordpress.png" class="project_icon"></img>
-	<img src="image/php.png" class="project_icon"></img>
-	<img src="image/mysql.png" class="project_icon"></img>
-	<img src="image/html.png" class="project_icon"></img>
-</div>
-
-
-<div class="col-xs-4 project_container animated fadeInUp slow" data-id="2">
-<div class="hovereffect">
 	<a class="cm-overlay" href="https://github.com/runxuanw/connect4_libgdx">
 		<img src="image/connect4.png" class="img-responsive shadow">
 		<div class="overlay">
@@ -241,7 +225,7 @@
 </div>
 
 
-<div class="col-xs-4 project_container animated fadeInUp slow" data-id="3">
+<div class="col-xs-4 project_container animated fadeInUp slow" data-id="2">
 <div class="hovereffect">
 	<a class="cm-overlay" href="https://github.com/runxuanw/ML_kernel">
 		<img src="image/sklearn.png" class="img-responsive shadow">
@@ -253,6 +237,22 @@
 	<img src="image/python.png" class="project_icon"></img>
 	<img src="image/eclipse.png" class="project_icon"></img>
 	<img src="image/scikit.png" class="project_icon"></img>
+</div>
+
+<div class="col-xs-4 project_container animated fadeInUp slow" data-id="3">
+<div class="hovereffect">
+	<a class="cm-overlay" href="http://foodiedeliver.com/">
+		<img src="image/foodie.png" class="img-responsive shadow">
+		<div class="overlay">
+			<h4>Food I Eat (constructing)</h4>
+		</div>
+	</a>
+</div>
+	<img src="image/wordpress.png" class="project_icon"></img>
+	<img src="image/php.png" class="project_icon"></img>
+	<img src="image/mysql.png" class="project_icon"></img>
+	<img src="image/html.png" class="project_icon"></img>
+	<img src="image/css.png" class="project_icon"></img>
 </div>
 
 </div>
@@ -277,6 +277,8 @@
 					<div class="timeline-category-icon">
 					</div> <!-- /.timeline-category-icon end -->
 				</div> <!-- /.timeline-category end -->
+									
+				
 					<div class="timeline-post timeline-post-left">
 					
 						<div class="timeline-post-content-holder animatedParent animateOnce">
@@ -285,13 +287,13 @@
 							</div>
 							<div class="animated fadeInLeft">
 							<div class="timeline-post-title">
-								<h4>Web developer, Student Worker</h4>
+								<h4>Master Student</h4>
 							</div>
 							<div class="timeline-post-subtitle">
-								<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
+								<p><span>University of Southern California</span><span class="timeline-duration">Aug 2015 - May 2017</span></p>
 							</div>
 							<div class="timeline-post-content">
-								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+								<p>Master student in computer science, .</p>
 							</div>
 							</div>
 						</div> <!-- /.timeline-post-content-holder end -->			
@@ -303,28 +305,28 @@
 							</div>
 							<div class="animated fadeInRight">
 							<div class="timeline-post-title">
-								<h4>SENIOR DEVELOPER 2</h4>
+								<h4>Web developer, Student Worker</h4>
 							</div>
 							<div class="timeline-post-subtitle">
-								<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
+								<p><span>USC Keck School of Medicine</span><span class="timeline-duration">Nov 2016 - Mar 2017</span></p>
 							</div>
 							<div class="timeline-post-content">
-								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris..</p>
 							</div>
 							</div>
 						</div> <!-- /.timeline-post-content-holder end -->							
 					</div> <!-- /.timeline-post end -->									
-					<div class="timeline-post timeline-post-left">											
+					<div class="timeline-post timeline-post-left" style="margin-top: 30%">											
 						<div class="timeline-post-content-holder animatedParent animateOnce">
 							<div class="timeline-img animated fadeIn">
 							<div class="sprite education"></div>
 							</div>
 							<div class="animated fadeInLeft">
 							<div class="timeline-post-title">
-								<h4>SENIOR DEVELOPER 3</h4>
+								<h4>Bachelor Student</h4>
 							</div>
 							<div class="timeline-post-subtitle">
-								<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
+								<p><span>University of Southern California</span><span class="timeline-duration">Aug 2011 - May 2015</span></p>
 							</div>
 							<div class="timeline-post-content">
 								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
@@ -332,17 +334,17 @@
 							</div>
 						</div> <!-- /.timeline-post-content-holder end -->
 					</div> <!-- /.timeline-post end -->
-					<div class="timeline-post timeline-post-right">											
+					<div class="timeline-post timeline-post-right" style="margin-top: 5%">											
 						<div class="timeline-post-content-holder animatedParent animateOnce">
 							<div class="timeline-img animated fadeIn">
 							<div class="sprite education"></div>
 							</div>
 							<div class="animated fadeInRight">
 							<div class="timeline-post-title">
-								<h4>SENIOR DEVELOPER 4</h4>
+								<h4>Research Assistant</h4>
 							</div>
 							<div class="timeline-post-subtitle">
-								<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
+								<p><span>USC Viterbi School of Engineering</span><span class="timeline-duration">Feb 2015 - Apr 2016</span></p>
 							</div>
 							<div class="timeline-post-content">
 								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
@@ -355,7 +357,7 @@
 
 			<!-- Education Timeline -->
 				<div class="timeline-category edu-cagegory">
-					<a class="large bt-timeline">Download Resume</a>
+					<a class="large bt-timeline" style="margin-top: 10%">Download Resume</a>
 				</div> <!-- /.timeline-category end -->
 
 			</div>	<!-- /.timeline end -->
