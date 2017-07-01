@@ -19,6 +19,7 @@
     text-align: center;
     position: relative;
     z-index: 6;
+	
 }
 .bt-timeline{
     display: inline-block;
@@ -41,7 +42,6 @@
 }
 
 
-
 .timeline-post-left{
     text-align: right;
     width: 50%;
@@ -53,24 +53,32 @@
     margin-top: 30%;
 }
 .timeline-post{
+	color: #dbdde5;
     padding: 10px 38px;
     float: left;
     position: relative;
 }
-.timeline-post:first-child{
-    
-}
+
 .timeline-post-content-holder{
-    padding: 15px;	
-	transition: 0.5s;
+    padding: 15px;
+	transition: 0.3s;
 	border-radius: 5px;
 }
 .timeline-post:hover .timeline-post-content-holder{
-    background-color: #fff;
+    background-color: #dbdde5;
+	color: black
 }
 
 .education {
-  background-image: url("../image/android.png");
+  background-image: url("../image/education.png");
+}
+
+.work {
+  background-image: url("../image/work.png");
+}
+
+.research {
+  background-image: url("../image/research.png");
 }
 
 .timeline-img {
@@ -83,7 +91,7 @@
 	transform:translateZ(0);
 	-webkit-backface-visibility:hidden;
 	backface-visibility:hidden;
-	transition:all .3s ease;
+	transition:0.3s;
 	z-index: 99
 }
 
@@ -105,7 +113,8 @@
 	margin-left:-12px;
 	margin-top:-12px;
 	background-repeat:no-repeat;
-	background-size:100%
+	background-size:100%;
+	filter: 
 }
 
 .timeline-post-right > .timeline-post-content-holder:before {
@@ -120,7 +129,7 @@
     pointer-events: none;
     border-width: 13px;
     margin-top: 25px;
-	transition: 0.5s;
+	transition: 0.3s;
 }
 
 .timeline-post-left > .timeline-post-content-holder:before {
@@ -135,34 +144,35 @@
     pointer-events: none;
     border-width: 13px;
     margin-top: 25px;
-	transition: 0.5s;
+	transition: 0.3s;
 	border-color: rgba(255, 255, 255, 0);
 }
 
+.timeline-post-right:hover .timeline-img,
+.timeline-post-left:hover .timeline-img {
+	-webkit-filter: invert(100%);
+}
 .timeline-post-right:hover > .timeline-post-content-holder:before {
     border-color: rgba(255, 255, 255, 0);
-    border-right-color: #fff;
+    border-right-color: #dbdde5;
 }
 .timeline-post-left:hover > .timeline-post-content-holder:before{
     border-color: rgba(255, 255, 255, 0);
-    border-left-color: #fff;
+    border-left-color: #dbdde5;
 }
 
 .timeline-post .timeline-post-title h4{
-    color: #2c3e50;
     font-family: "Raleway";
     font-size: 22px;
     font-weight: bold;
 }
 .timeline-post .timeline-post-subtitle p{
-    color: #2c3e50;
     font-family: "Raleway";
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
 }
 .timeline-post .timeline-post-content{
-    color: #7d878f;
     font-family: "Raleway";
     font-size: 16px;
     line-height: 28px;

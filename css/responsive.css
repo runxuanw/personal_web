@@ -43,6 +43,7 @@
     .timeline-post-left, .timeline-post-right{
         width: 100%;
         text-align: left;
+		margin-top: 20px !important
     }
     .timeline-post-right{
         margin-top: 0;
@@ -58,6 +59,10 @@
     .timeline-end-icon{
         display: none;
     }
+	
+	.timeline-img {
+		display: none;
+	}
 
     
     .about-info {

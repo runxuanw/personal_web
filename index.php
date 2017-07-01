@@ -39,7 +39,6 @@
 	<div id="myNavbar" class="navbar-collapse collapse">
 	  <ul class="nav navbar-nav navbar-right">
 		<li><a href="#intro" onclick="return navClick('#intro');">Intro</a></li>
-		<li><a href="#skill" onclick="return navClick('#skill');">Skill</a></li>
 		<li><a href="#project" onclick="return navClick('#project');">Project</a></li>
 		<li><a href="#experience" onclick="return navClick('#experience');">Experience</a></li>
 		<li><a href="#contact" onclick="return navClick('#contact');">Contact</a></li>
@@ -63,10 +62,10 @@
 <div class="inline-wrapper clearfix">
 <div id="myPic" class="animatedParent animateOnce" data-appear-top-offset="-100">
 <div class="animated bounceInLeft slow">
-  <div class="bottom circle-img img-circle">
+  <div class="bottom img-circle my-img">
   <img src="image/person2.png" />
   </div>
-  <div class="top circle-img img-circle">
+  <div class="top img-circle my-img">
   <img src="image/shadow2.png" />
   </div>
 </div>
@@ -78,18 +77,15 @@
 		My name is Runxuan Wei. Currently a <b>new graduate student</b> in computer science major from <b>University of Southern California</b>. I love to solve <b>algorithm problems</b> and want to understand things from multiple perspectives. My passion is to build products and see people enjoy using them. My career goal is to become a software architecture in future. 
 		<br>
 		<br>Additionally, I do love to play video games... a lot.
+
 	</p>
 </div>
-
 </div>
 
-</div>
-
-<div id="skill" class="section">
-<h2>Skill Sets</h2>			
-			
-
-<div class="skills-wrapper col-xs-11 col-ms-8 col-md-8 animatedParent animateOnce" data-sequence="500">
+<div class="inline-wrapper clearfix">
+<div class="row">
+<div class="skills-wrapper col-md-8 animatedParent animateOnce" data-sequence="500">
+<h2>Skills</h2>	
 <div class="row animated fadeInUp slow" data-id="1">
 <div class="col-xs-2 icon-wrapper">
 <img class="skill_icon img-responsive" src="image/java.png"></img>
@@ -153,15 +149,60 @@
 </div>
 
 </div>
+</div> <!--end of skill-->
+
+<div class="hobby col-md-4">
+<div class="skills-wrapper col-md-12 animatedParent animateOnce" data-sequence="500">
+<h2>Likes</h2>	
+<div class="row animated fadeInUp slow" data-id="1">
+<div class="col-xs-4 icon-wrapper">
+<img class="skill_icon img-responsive" src="image/ping-pong.png"></img>
+</div>
+<div class="col-xs-4 icon-wrapper">
+<img class="skill_icon img-responsive" src="image/noodle.png"></img>
+</div>
+<div class="col-xs-4 icon-wrapper">
+<img class="skill_icon img-responsive" src="image/overwatch.png"></img>
+</div>
+
+</div>
+<div class="row animated fadeInUp slow" data-id="2">
+
+<div class="col-xs-4 icon-wrapper">
+<img class="skill_icon img-responsive" src="image/travel.png"></img>
+</div>
+<div class="col-xs-4 icon-wrapper">
+<img class="skill_icon img-responsive" src="image/sleep.png"></img>
+</div>
+<div class="col-xs-4 icon-wrapper">
+<img class="skill_icon img-responsive img-circle" src="image/conan.png"></img>
+</div>
+
+</div><div class="row animated fadeInUp slow" data-id="3">
+
+<div class="col-xs-4 icon-wrapper">
+<img class="skill_icon img-responsive" src="image/game.png"></img>
+</div>
+<div class="col-xs-4 icon-wrapper">
+<img class="skill_icon img-responsive" src="image/game.png"></img>
+</div>
+<div class="col-xs-4 icon-wrapper">
+<img class="skill_icon img-responsive" src="image/game.png"></img>
+</div>
+
+</div>
+</div> <!--end of hobby-->
+</div>
+</div> <!--end of row-->
 </div>
 </div>
-<div id="project" class="section">
-<h2>Projects</h2>
+<div id="project" class="section night2_parallax">
+<h2 style="text-align: center; color: white">Projects</h2>
 <div class="row animatedParent animateOnce" data-appear-top-offset="-300" data-sequence="500">
 <div class="col-xs-4 project_container animated fadeInUp slow" data-id="1">
 <div class="hovereffect">
 	<a class="cm-overlay" href="https://github.com/runxuanw/name_battle">
-		<img src="image/name_battle.png" class="img-responsive shadow">
+		<img src="image/name_battle.png" class="img-responsive img-rounded shadow">
 		<div class="overlay">
 			<h4>Name Battle</h4>
 		</div>
@@ -175,7 +216,7 @@
 <div class="col-xs-4 project_container animated fadeInUp slow" data-id="2">
 <div class="hovereffect">
 	<a class="cm-overlay" href="http://cs571wrx.us-west-1.elasticbeanstalk.com/hw8.html">
-		<img src="image/search_web.png" class="img-responsive shadow">
+		<img src="image/search_web.png" class="img-responsive img-rounded shadow">
 		<div class="overlay">
 			<h4>Facebook Search Web</h4>
 		</div>
@@ -195,7 +236,7 @@
 <div class="col-xs-4 project_container animated fadeInUp slow" data-id="3">
 <div class="hovereffect">
 	<a class="cm-overlay" href="https://github.com/runxuanw/fb_search_app/tree/master/src">
-		<img src="image/search_app.png" class="img-responsive shadow">
+		<img src="image/search_app.png" class="img-responsive img-rounded shadow">
 		<div class="overlay">
 			<h4>Facebook Search App</h4>
 		</div>
@@ -213,7 +254,7 @@
 <div class="col-xs-4 project_container animated fadeInUp slow" data-id="1">
 <div class="hovereffect">
 	<a class="cm-overlay" href="https://github.com/runxuanw/connect4_libgdx">
-		<img src="image/connect4.png" class="img-responsive shadow">
+		<img src="image/connect4.png" class="img-responsive img-rounded shadow">
 		<div class="overlay">
 			<h4>Connect Four</h4>
 		</div>
@@ -228,7 +269,7 @@
 <div class="col-xs-4 project_container animated fadeInUp slow" data-id="2">
 <div class="hovereffect">
 	<a class="cm-overlay" href="https://github.com/runxuanw/ML_kernel">
-		<img src="image/sklearn.png" class="img-responsive shadow">
+		<img src="image/sklearn.png" class="img-responsive img-rounded shadow">
 		<div class="overlay">
 			<h4>Kernel Transformation</h4>
 		</div>
@@ -242,7 +283,7 @@
 <div class="col-xs-4 project_container animated fadeInUp slow" data-id="3">
 <div class="hovereffect">
 	<a class="cm-overlay" href="http://foodiedeliver.com/">
-		<img src="image/foodie.png" class="img-responsive shadow">
+		<img src="image/foodie.png" class="img-responsive img-rounded shadow">
 		<div class="overlay">
 			<h4>Food I Eat (constructing)</h4>
 		</div>
@@ -274,8 +315,7 @@
 			<!-- Experience Timeline -->
 
 				<div class="timeline-category exp-category">
-					<div class="timeline-category-icon">
-					</div> <!-- /.timeline-category-icon end -->
+
 				</div> <!-- /.timeline-category end -->
 									
 				
@@ -301,7 +341,7 @@
 					<div class="timeline-post timeline-post-right">											
 						<div class="timeline-post-content-holder animatedParent animateOnce">
 							<div class="timeline-img animated fadeIn">
-							<div class="sprite education"></div>
+							<div class="sprite work"></div>
 							</div>
 							<div class="animated fadeInRight">
 							<div class="timeline-post-title">
@@ -337,7 +377,7 @@
 					<div class="timeline-post timeline-post-right" style="margin-top: 5%">											
 						<div class="timeline-post-content-holder animatedParent animateOnce">
 							<div class="timeline-img animated fadeIn">
-							<div class="sprite education"></div>
+							<div class="sprite research"></div>
 							</div>
 							<div class="animated fadeInRight">
 							<div class="timeline-post-title">
@@ -347,7 +387,7 @@
 								<p><span>USC Viterbi School of Engineering</span><span class="timeline-duration">Feb 2015 - Apr 2016</span></p>
 							</div>
 							<div class="timeline-post-content">
-								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+								<p>Worked in .</p>
 							</div>
 							</div>
 						</div> <!-- /.timeline-post-content-holder end -->							
@@ -357,7 +397,9 @@
 
 			<!-- Education Timeline -->
 				<div class="timeline-category edu-cagegory">
-					<a class="large bt-timeline" style="margin-top: 10%">Download Resume</a>
+					<a href="file/resume.pdf" class="bt-timeline" style="margin-top: 10%" download>
+					Download Resume
+					</a>
 				</div> <!-- /.timeline-category end -->
 
 			</div>	<!-- /.timeline end -->
