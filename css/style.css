@@ -152,7 +152,7 @@ span.blink{
 .inline-wrapper {
   display:inline-block;
   width: 100%;
-  margin-bottom: 10%
+  margin-bottom: 8%
 }
 
 body {
@@ -189,13 +189,15 @@ body {
 	padding-right: 10%;
 	
   }
+  
+  
   .skill_icon {
     filter: grayscale(100%);
 	margin-right: 15px;
 	margin-top: 30px;
 	transition: 0.8s;
   }
-  
+    
   @media only screen and (min-width: 780px) {
     .skill_icon {
         padding: 10%;
@@ -222,7 +224,7 @@ body {
   }
   
   .project_icon {
-	margin-left: 4%;
+	margin-left: 3%;
 	margin-top: 5%;
 	height: auto;
 	width: 9%;

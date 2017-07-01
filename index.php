@@ -83,51 +83,52 @@
 </div>
 
 <div class="inline-wrapper clearfix">
+<div class="row animatedParent animateOnce" data-sequence="500">
+<div class="skills-wrapper col-md-8" >
+<h2>Skills</h2>
 <div class="row">
-<div class="skills-wrapper col-md-8 animatedParent animateOnce" data-sequence="500">
-<h2>Skills</h2>	
-<div class="row animated fadeInUp slow" data-id="1">
-<div class="col-xs-2 icon-wrapper">
+<div class="animated fadeInUp slow" data-id="1">
+<div class="col-xs-2">
 <img class="skill_icon img-responsive" src="image/java.png"></img>
 </div>
-<div class="col-xs-2 icon-wrapper">
+<div class="col-xs-2">
 <img class="skill_icon img-responsive" src="image/angularJS.png"></img>
 </div>
-<div class="col-xs-2 icon-wrapper">
+<div class="col-xs-2">
 <img class="skill_icon img-responsive" src="image/aws.png"></img>
 </div>
-<div class="col-xs-2 icon-wrapper">
+<div class="col-xs-2">
 <img class="skill_icon img-responsive" src="image/javascript.png"></img>
 </div>
-<div class="col-xs-2 icon-wrapper">
+<div class="col-xs-2">
 <img class="skill_icon img-responsive" src="image/android-studio.png"></img>
 </div>
-<div class="col-xs-2 icon-wrapper">
+<div class="col-xs-2">
 <img class="skill_icon img-responsive" src="image/android.png"></img>
 </div>
 
-</div><div class="row animated fadeInUp slow" data-id="2">
+</div><div class="animated fadeInUp slow" data-id="2">
 
-<div class="col-xs-2 icon-wrapper">
+<div class="col-xs-2">
 <img class="skill_icon img-responsive" src="image/html.png"></img>
 </div>
-<div class="col-xs-2 icon-wrapper">
+<div class="col-xs-2">
 <img class="skill_icon img-responsive" src="image/mysql.png"></img>
 </div>
-<div class="col-xs-2 icon-wrapper">
+<div class="col-xs-2">
 <img class="skill_icon img-responsive" src="image/jquery.png"></img>
 </div>
-<div class="col-xs-2 icon-wrapper">
+<div class="col-xs-2">
 <img class="skill_icon img-responsive" src="image/css.png"></img>
 </div>
-<div class="col-xs-2 icon-wrapper">
+<div class="col-xs-2">
 <img class="skill_icon img-responsive" src="image/drupal.png"></img>
 </div>
-<div class="col-xs-2 icon-wrapper">
+<div class="col-xs-2">
 <img class="skill_icon img-responsive" src="image/php.png"></img>
 </div>
 
-</div><div class="row animated fadeInUp slow" data-id="3">
+</div><div class="animated fadeInUp slow" data-id="3">
 
 <div class="col-xs-2 icon-wrapper">
 <img class="skill_icon img-responsive" src="image/eclipse.png"></img>
@@ -149,57 +150,54 @@
 </div>
 
 </div>
+</div>
 </div> <!--end of skill-->
 
 <div class="hobby col-md-4">
-<div class="skills-wrapper col-md-12 animatedParent animateOnce" data-sequence="500">
-<h2>Likes</h2>	
-<div class="row animated fadeInUp slow" data-id="1">
-<div class="col-xs-4 icon-wrapper">
+<div class="skills-wrapper col-md-12">
+<h2>Likes</h2>
+<div class="row animated fadeInRight slow" data-id="4">
+<div class="col-xs-2 col-md-4">
 <img class="skill_icon img-responsive" src="image/ping-pong.png"></img>
 </div>
-<div class="col-xs-4 icon-wrapper">
+<div class="col-xs-2 col-md-4">
 <img class="skill_icon img-responsive" src="image/noodle.png"></img>
 </div>
-<div class="col-xs-4 icon-wrapper">
+<div class="col-xs-2 col-md-4">
 <img class="skill_icon img-responsive" src="image/overwatch.png"></img>
 </div>
 
-</div>
-<div class="row animated fadeInUp slow" data-id="2">
-
-<div class="col-xs-4 icon-wrapper">
+<div class="col-xs-2 col-md-4">
 <img class="skill_icon img-responsive" src="image/travel.png"></img>
 </div>
-<div class="col-xs-4 icon-wrapper">
+<div class="col-xs-2 col-md-4">
 <img class="skill_icon img-responsive" src="image/sleep.png"></img>
 </div>
-<div class="col-xs-4 icon-wrapper">
+<div class="col-xs-2 col-md-4">
 <img class="skill_icon img-responsive img-circle" src="image/conan.png"></img>
 </div>
 
-</div><div class="row animated fadeInUp slow" data-id="3">
-
-<div class="col-xs-4 icon-wrapper">
+<div class="col-xs-2 col-md-4">
 <img class="skill_icon img-responsive" src="image/game.png"></img>
 </div>
-<div class="col-xs-4 icon-wrapper">
+<div class="col-xs-2 col-md-4">
 <img class="skill_icon img-responsive" src="image/game.png"></img>
 </div>
-<div class="col-xs-4 icon-wrapper">
+<div class="col-xs-2 col-md-4">
 <img class="skill_icon img-responsive" src="image/game.png"></img>
 </div>
 
+</div>
 </div>
 </div> <!--end of hobby-->
-</div>
 </div> <!--end of row-->
 </div>
 </div>
 <div id="project" class="section night2_parallax">
 <h2 style="text-align: center; color: white">Projects</h2>
-<div class="row animatedParent animateOnce" data-appear-top-offset="-300" data-sequence="500">
-<div class="col-xs-4 project_container animated fadeInUp slow" data-id="1">
+<div class="row">
+<div class="animatedParent animateOnce" data-appear-top-offset="-200">
+<div class="col-xs-12 col-md-4 project_container animated fadeInUp slow delay-250">
 <div class="hovereffect">
 	<a class="cm-overlay" href="https://github.com/runxuanw/name_battle">
 		<img src="image/name_battle.png" class="img-responsive img-rounded shadow">
@@ -212,8 +210,10 @@
 	<img src="image/eclipse.png" class="project_icon"></img>
 	<img src="image/idea.png" class="project_icon"></img>
 </div>
+</div>
 
-<div class="col-xs-4 project_container animated fadeInUp slow" data-id="2">
+<div class="animatedParent animateOnce" data-appear-top-offset="-200">
+<div class="col-xs-12 col-md-4 project_container animated fadeInUp slow delay-500" data-id="2">
 <div class="hovereffect">
 	<a class="cm-overlay" href="http://cs571wrx.us-west-1.elasticbeanstalk.com/hw8.html">
 		<img src="image/search_web.png" class="img-responsive img-rounded shadow">
@@ -230,10 +230,11 @@
 	<img src="image/php2.png" class="project_icon"></img>
 	<img src="image/bootstrap2.png" class="project_icon"></img>
 	<img src="image/css.png" class="project_icon"></img>
-	<img src="image/aws.png" class="project_icon"></img>
+</div>
 </div>
 
-<div class="col-xs-4 project_container animated fadeInUp slow" data-id="3">
+<div class="animatedParent animateOnce" data-appear-top-offset="-200">
+<div class="col-xs-12 col-md-4 project_container animated fadeInUp slow delay-750" data-id="3">
 <div class="hovereffect">
 	<a class="cm-overlay" href="https://github.com/runxuanw/fb_search_app/tree/master/src">
 		<img src="image/search_app.png" class="img-responsive img-rounded shadow">
@@ -246,12 +247,10 @@
 	<img src="image/android.png" class="project_icon"></img>
 	<img src="image/android-studio.png" class="project_icon"></img>
 </div>
-
 </div>
-<div class="row animatedParent animateOnce" data-appear-top-offset="-300" data-sequence="500">
 
-
-<div class="col-xs-4 project_container animated fadeInUp slow" data-id="1">
+<div class="animatedParent animateOnce" data-appear-top-offset="-200">
+<div class="col-xs-12 col-md-4 project_container animated fadeInUp slow delay-250" data-id="1">
 <div class="hovereffect">
 	<a class="cm-overlay" href="https://github.com/runxuanw/connect4_libgdx">
 		<img src="image/connect4.png" class="img-responsive img-rounded shadow">
@@ -264,9 +263,10 @@
 	<img src="image/eclipse.png" class="project_icon"></img>
 	<img src="image/libgdx.png" class="project_icon"></img>
 </div>
+</div>
 
-
-<div class="col-xs-4 project_container animated fadeInUp slow" data-id="2">
+<div class="animatedParent animateOnce" data-appear-top-offset="-200">
+<div class="col-xs-12 col-md-4 project_container animated fadeInUp slow delay-500" data-id="2">
 <div class="hovereffect">
 	<a class="cm-overlay" href="https://github.com/runxuanw/ML_kernel">
 		<img src="image/sklearn.png" class="img-responsive img-rounded shadow">
@@ -279,8 +279,10 @@
 	<img src="image/eclipse.png" class="project_icon"></img>
 	<img src="image/scikit.png" class="project_icon"></img>
 </div>
+</div>
 
-<div class="col-xs-4 project_container animated fadeInUp slow" data-id="3">
+<div class="animatedParent animateOnce" data-appear-top-offset="-200">
+<div class="col-xs-12 col-md-4 project_container animated fadeInUp slow delay-750" data-id="3">
 <div class="hovereffect">
 	<a class="cm-overlay" href="http://foodiedeliver.com/">
 		<img src="image/foodie.png" class="img-responsive img-rounded shadow">
@@ -294,10 +296,14 @@
 	<img src="image/mysql.png" class="project_icon"></img>
 	<img src="image/html.png" class="project_icon"></img>
 	<img src="image/css.png" class="project_icon"></img>
+	<img src="image/aws.png" class="project_icon"></img>
+</div>
 </div>
 
 </div>
 </div>
+
+
 <div id="experience" class="section">
 
 <div class="container">
@@ -318,7 +324,6 @@
 
 				</div> <!-- /.timeline-category end -->
 									
-				
 					<div class="timeline-post timeline-post-left">
 					
 						<div class="timeline-post-content-holder animatedParent animateOnce">
