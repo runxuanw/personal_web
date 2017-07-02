@@ -9,9 +9,9 @@
 	color: white;
 }
 
-.navbar-brand {
-  color: #ffffff !important;
-}
+	.navbar-brand {
+	  color: #ffffff !important;
+	}
 
   .navbar-default .navbar-nav > li > a {
    color: white; /*Change text color here*/
@@ -155,7 +155,7 @@ span.blink{
   margin-bottom: 8%
 }
 
-body {
+html, body {
   overflow-x: hidden
 }
 
@@ -181,13 +181,16 @@ body {
     font-size: 1.5em;
   }
   
-  #introText p, h2{
+  #introText p, h2, h3{
 	font-family: Roboto Slab
+  }
+  
+  h3 {
+    margin: auto
   }
 
   .skills-wrapper {
 	padding-right: 10%;
-	
   }
   
   

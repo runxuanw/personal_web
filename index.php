@@ -74,9 +74,9 @@
 
 <div id="introText" class="animatedParent animateOnce">
 <p class="animated bounceInRight slow">
-		My name is Runxuan Wei. Currently a <b>new graduate student</b> in computer science major from <b>University of Southern California</b>. I love to solve <b>algorithm problems</b> and want to understand things from multiple perspectives. My passion is to build products and see people enjoy using them. My career goal is to become a software architecture in future. 
+		My name is Runxuan Wei. Currently a <b>new graduate student</b> in computer science major from <b>University of Southern California</b>. I love to solve <b>algorithm problems</b> and want to understand things from multiple perspectives. My passion is to build products and to see people enjoy using them. My career goal is to become a software architecture after 5 years in software development. 
 		<br>
-		<br>Additionally, I do love to play video games... a lot.
+		<br>Besides being a software developer, I love to play video games... specially strategy games.
 
 	</p>
 </div>
@@ -309,7 +309,7 @@
 <div class="container">
 	<!-- section title -->
 	<div class="section-title">
-		<h2>Experience</h2>
+		<h2 style="text-align: center; margin-bottom: 10%">Experience</h2>
 		<span class="border"></span>
 	</div>
 	<!-- section title end-->
@@ -335,10 +335,10 @@
 								<h4>Master Student</h4>
 							</div>
 							<div class="timeline-post-subtitle">
-								<p><span>University of Southern California</span><span class="timeline-duration">Aug 2015 - May 2017</span></p>
+								<p><span>Univ of Southern California</span><span class="timeline-duration">Aug 2015 - May 2017</span></p>
 							</div>
 							<div class="timeline-post-content">
-								<p>Master student in computer science, .</p>
+								<p>Newly graduated from USC as a master student in computer science major. Course work includes web development, database development, software development, machine learning and natural language processing.</p>
 							</div>
 							</div>
 						</div> <!-- /.timeline-post-content-holder end -->			
@@ -356,7 +356,7 @@
 								<p><span>USC Keck School of Medicine</span><span class="timeline-duration">Nov 2016 - Mar 2017</span></p>
 							</div>
 							<div class="timeline-post-content">
-								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris..</p>
+								<p>Worked in Doctor Lee's Lab as a part-time web developer. Built internal administration website templates and detailed page PHP scripts under Drupal 7 framework. Was assigned tasks from supervisor and submitted feedbacks on a daily base.</p>
 							</div>
 							</div>
 						</div> <!-- /.timeline-post-content-holder end -->							
@@ -371,10 +371,10 @@
 								<h4>Bachelor Student</h4>
 							</div>
 							<div class="timeline-post-subtitle">
-								<p><span>University of Southern California</span><span class="timeline-duration">Aug 2011 - May 2015</span></p>
+								<p><span>Univ of Southern California</span><span class="timeline-duration">Aug 2011 - May 2015</span></p>
 							</div>
 							<div class="timeline-post-content">
-								<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+								<p>Graduated in May 2015 from USC as a bachelor student in computer science major, focused on software development.</p>
 							</div>
 							</div>
 						</div> <!-- /.timeline-post-content-holder end -->
@@ -389,10 +389,10 @@
 								<h4>Research Assistant</h4>
 							</div>
 							<div class="timeline-post-subtitle">
-								<p><span>USC Viterbi School of Engineering</span><span class="timeline-duration">Feb 2015 - Apr 2016</span></p>
+								<p><span>USC Viterbi School</span><span class="timeline-duration">Feb 2015 - Apr 2016</span></p>
 							</div>
 							<div class="timeline-post-content">
-								<p>Worked in .</p>
+								<p>In Center for Rapid Automated Fabrication Technologies Lab, assisted Phd student Jing Zhang in developing software to facilitate seperation process for experimental 3D printer and reduced workflow by modifying open-source software in use.</p>
 							</div>
 							</div>
 						</div> <!-- /.timeline-post-content-holder end -->							
@@ -418,7 +418,7 @@
 <div id="contact" class="section contact_parallax animatedParent" data-appear-top-offset="-300">
   
   <form id="email_form" action="index.php#contact" onsubmit="return sendEmail();" class="animated growIn slow">
-	  <h3 align=center style="color:white;  margin-bottom: 40px">Get In Touch</h3>
+	  <h3 align=center style="color:white;  margin-bottom: 40px; text-decoration: underline">Get In Touch</h3>
 	  <input id="name" name="name" class="name" placeholder="Name" required />
 	  <input id="email" name="email" class="email" placeholder="Email" required />
 	  <textarea rows="5" cols="80" id="message" name="message" class="message" placeholder="Message" required></textarea>
