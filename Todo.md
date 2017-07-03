@@ -3,3 +3,5 @@
 2. Better get-in-touch margin for mobile design
 3. Add description for each project
 4. fix myPic hover issue on mobile
+5. ipod touch RSD issue
+6. chrome CSS issue

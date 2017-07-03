@@ -74,7 +74,7 @@
 
 <div id="introText" class="animatedParent animateOnce">
 <p class="animated bounceInRight slow">
-		My name is Runxuan Wei. Currently a <b>new graduate student</b> in computer science major from <b>University of Southern California</b>. I love to solve <b>algorithm problems</b> and want to understand things from multiple perspectives. My passion is to build products and to see people enjoy using them. My career goal is to become a software architecture after 5 years in software development. 
+		My name is Runxuan Wei. Currently a <b>new graduate student</b> in computer science major from <b>University of Southern California</b>. I love to solve <b>algorithm problems</b> and want to understand things from multiple perspectives. My passion is to build products and to see people enjoy using them. My career goal is to become a software architecture after working 5 years in software development. 
 		<br>
 		<br>Besides being a software developer, I love to play video games... specially strategy games.
 
@@ -392,7 +392,7 @@
 								<p><span>USC Viterbi School</span><span class="timeline-duration">Feb 2015 - Apr 2016</span></p>
 							</div>
 							<div class="timeline-post-content">
-								<p>In Center for Rapid Automated Fabrication Technologies Lab, assisted Phd student Jing Zhang in developing software to facilitate seperation process for experimental 3D printer and reduced workflow by modifying open-source software in use.</p>
+								<p>In Center for Rapid Automated Fabrication Technologies Lab, assisted Phd student Jing Zhang in developing software to facilitate seperation process for experimental 3D printer. Also reduced workflow by modifying open-source software in use.</p>
 							</div>
 							</div>
 						</div> <!-- /.timeline-post-content-holder end -->							
@@ -439,6 +439,31 @@
 <br>
 &copy 2017 Runxuan Wei
 </div>
+
+<?php 
+  	$url = json_decode(file_get_contents("http://api.ipinfodb.com/v3/ip-city/?key=/486918881e5edf532f2c3039d4a934d8da2e40431406ba78d32e4b7e213571e9/ip=".$_SERVER['REMOTE_ADDR']."&format=json"));
+	$country=$url->countryName;  // user country
+	$city=$url->cityName;       // city
+	$region=$url->regionName;   // regoin
+	$latitude=$url->latitude;    //lat and lon
+	$longitude=$url->longitude;
+
+	// get time
+	date_default_timezone_set('America/Los_Angeles');
+	$date = date("Y-m-d");
+	$time = date("H:i:s");
+	
+	$myfile = fopen("visited.txt", "a+") or die("");
+	$txt = $date." ".$time."\n";
+	$txt .= $_SERVER["REMOTE_ADDR"]."\n";
+	$txt .= $_SERVER['HTTP_USER_AGENT']."\n";
+	$txt .= "lat: ".$latitude."\n";
+	$txt .= "lon: ".$longitude."\n";
+	$txt .= $country." ".$city." ".$region."\n\n";
+	fwrite($myfile, $txt);
+	fclose($myfile);
+
+?>
 
 </body>
 </html>
