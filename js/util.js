@@ -9,15 +9,17 @@ $(document).ready(function(){
 	   $("#myPic div.bottom img").stop(true).animate({backgroundColor: "#032F4A"}, 1000);
 	});
 	
+	var origin = "";
 	$("#frontLink").hover(function() {
+	  origin = $(this).html();
 	  $(this).stop(true).fadeTo(500, 0, function() {
-	    $(this).html("Hey there !");
+	    $(this).html($("#location").html());
 		$(this).fadeTo(500, 1);
 	  });
 	},
 	function() {
 	  $(this).stop(true).delay(500).fadeTo(800, 0, function() {
-	    $(this).html("Hello World..<span class='blink'>.</span>");
+	    $(this).html(origin);
 		$(this).fadeTo(500, 1);
 	  });
 	}

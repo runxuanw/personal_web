@@ -51,7 +51,8 @@
 <div class="content">
 	<div id="img_container">
 		<div class="night_parallax"></div>
-		<a href="#intro" id="frontLink" onclick="return navClick('#intro');">Hello World..<span class="blink">.</span></a>
+		<a href="#intro" id="frontLink" onclick="return navClick('#intro');">Hey there..<span class="blink">.</span></a>
+		<div id="location" style="display: none;"></div>
 	</div>
 	
 <div id="intro" class="section">
@@ -441,12 +442,11 @@
 </div>
 
 <?php 
-  	$ip = $_SERVER['REMOTE_ADDR']; // the IP address to query
+  	$ip = "208.80.152.201";//$_SERVER['REMOTE_ADDR']; // the IP address to query
 	$txt = "\n";
 	$query = unserialize(file_get_contents('http://ip-api.com/php/'.$ip));
 	if($query && $query['status'] == 'success') {
-		echo 'Hello visitor from '.$query['country'].', '.$query['city'].'!';
-
+		echo '<script>$("#location").html("Are you from '.$query['city'].' ?")</script>';
 		foreach($query as $key => $value) {
 			$txt .= $key." :  ".$value."\n";
 		}

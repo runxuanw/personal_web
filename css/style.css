@@ -84,7 +84,7 @@
 	text-decoration: none;
 	font-size: 1.5em;
 	animation: myFadeIn 1s linear;
-	width: 150px;
+	width: 250px;
   }
   
   
@@ -95,7 +95,7 @@
 }
   
 span.blink{
-  animation: blink 1s infinite;
+  animation: blink 1.5s infinite;
 }
 
 @keyframes blink{
