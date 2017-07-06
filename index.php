@@ -441,25 +441,25 @@
 </div>
 
 <?php 
-  	$url = json_decode(file_get_contents("http://api.ipinfodb.com/v3/ip-city/?key=/486918881e5edf532f2c3039d4a934d8da2e40431406ba78d32e4b7e213571e9/ip=".$_SERVER['REMOTE_ADDR']."&format=json"));
-	$country=$url->countryName;  // user country
-	$city=$url->cityName;       // city
-	$region=$url->regionName;   // regoin
-	$latitude=$url->latitude;    //lat and lon
-	$longitude=$url->longitude;
+  	$ip = $_SERVER['REMOTE_ADDR']; // the IP address to query
+	$txt = "\n";
+	$query = unserialize(file_get_contents('http://ip-api.com/php/'.$ip));
+	if($query && $query['status'] == 'success') {
+		echo 'Hello visitor from '.$query['country'].', '.$query['city'].'!';
 
+		foreach($query as $key => $value) {
+			$txt .= $key." :  ".$value."\n";
+		}
+	} 
 	// get time
 	date_default_timezone_set('America/Los_Angeles');
 	$date = date("Y-m-d");
 	$time = date("H:i:s");
-	
+
 	$myfile = fopen("visited.txt", "a+") or die("");
-	$txt = $date." ".$time."\n";
+	$txt .= $date." ".$time."\n";
 	$txt .= $_SERVER["REMOTE_ADDR"]."\n";
 	$txt .= $_SERVER['HTTP_USER_AGENT']."\n";
-	$txt .= "lat: ".$latitude."\n";
-	$txt .= "lon: ".$longitude."\n";
-	$txt .= $country." ".$city." ".$region."\n\n";
 	fwrite($myfile, $txt);
 	fclose($myfile);
 
